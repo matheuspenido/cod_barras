@@ -22,4 +22,6 @@ void loop() {
     Serial.println(timer1.getMessage());
 
   led1.update(ms);
+
+  delay(1);
 }
