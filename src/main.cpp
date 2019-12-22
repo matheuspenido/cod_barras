@@ -7,6 +7,7 @@
 Flash led1 = Flash(4, 200, 200);
 Timeout timer1 = Timeout(3000, "ACABOU O TEMPO!");
 
+
 void setup() {
   Serial.begin(9600);
   // put your setup code here, to run once:
